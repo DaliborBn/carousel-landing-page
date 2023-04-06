@@ -1,0 +1,56 @@
+@media (min-width:576px) {
+  span i {
+    font-size: 3.5rem;
+  }
+  .description h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  body {
+    background-image: url("img/bg-desktop.svg");
+  }
+  .main-container {
+    max-width: 110rem;
+  }
+  .logo {
+    margin-bottom: 3rem;
+    a svg {
+    width: 20rem;
+    }
+  }
+  .description {
+    margin-top: 0;
+    padding-left: 5rem;
+    h2 {
+      max-width: none;
+      font-size: 2.1rem;
+    }
+    a {
+      max-width: 17rem;
+      font-size: 1.5rem;
+    }
+  }
+  .social {
+    margin-top: 3rem;
+  }
+}
+
+@media (min-width:992px) {
+  span i {
+    font-size: 4.5rem;
+  }
+  .description {
+    h2 {
+      font-size: 3.5rem;
+    }
+    a {
+      padding: 1.2rem 0;
+      font-size: 1.6rem;
+    }
+  }
+  .social {
+    margin-top: 2rem;
+  }
+}

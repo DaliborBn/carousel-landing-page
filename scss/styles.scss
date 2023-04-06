@@ -1,0 +1,79 @@
+@import 'utilities';
+.main-container {
+  max-width: 50rem;
+  margin: 3rem 4rem;
+}
+.logo {
+  margin-bottom: 6rem;
+  a svg {
+  height: auto; /* Change height of svg, otherwise height is fixed */
+  width: 45%;
+  transition: all ease 0.3s;
+  color: #ffffff;
+  }
+}
+.carousel-custom {
+  box-shadow: $carousel-shadow;
+}
+span i {
+  font-size: 2.5rem;
+  color: $violet;
+}
+.description {
+  margin-top: 6rem;
+  h2 {
+    font-size: 2.3rem;
+    font-family: $poppins;
+    color: $white;
+    line-height: 1.4;
+    max-width: 360px;
+  }
+  p {
+    font-size: 1.45rem;
+    font-family: $poppins;
+    line-height: 1.6;
+    color: $white;
+    margin: 2.2rem 0;
+  }
+  a {
+    width: 70%;
+    max-width: 22rem;
+    font-size: 1.3rem;
+    font-family: $open-sans;
+    background-color: $white;
+    color: $violet;
+    padding: 1rem 0;
+    border: none;
+    box-shadow: $custom-shadow;
+    transition: all ease 0.3s;
+  }
+}
+.social {
+  margin-top: 6rem;
+  a svg {
+    height: auto; /* Change height of svg, otherwise height is fixed */
+    width: 8%;
+    max-width: 3rem;
+    color: $white;
+    transition: all ease 0.3s;
+  }
+  a:nth-child(2) {
+    margin: 0 1rem
+  }
+}
+
+@media (hover: hover) {
+  .logo a svg:hover {
+  transform: rotate(-4deg) scale(1.1);
+  color: $light-violet; 
+  }
+  .description a:hover {
+    background-color: $light-violet;
+    color: $white;
+  }
+  .social a svg:hover {
+    color: $light-violet;
+  }
+}
+
+@import 'responsive';

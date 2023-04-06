@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+$poppins: 'Poppins', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+$violet: hsl(257, 40%, 49%);
+$light-violet: hsl(300, 69%, 71%);
+$custom-shadow: 0.5px 10px 10px rgba(0, 0, 0, 0.192);
+$carousel-shadow: 0px -5px 15px rgba(0, 0, 0, 0.292), 0px 5px 15px rgba(0, 0, 0, 0.292);
+
+$body-bg: $violet;
+$paragraph-margin-bottom: 0;
+$headings-margin-bottom: 0;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-image: url("img/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
