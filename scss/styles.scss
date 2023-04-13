@@ -46,6 +46,10 @@ span i {
     border: none;
     box-shadow: $custom-shadow;
     transition: all ease 0.3s;
+    &:hover {
+      background-color: $light-violet;
+      color: $white;
+    }
   }
 }
 .social {
@@ -66,10 +70,6 @@ span i {
   .logo a svg:hover {
   transform: rotate(-4deg) scale(1.1);
   color: $light-violet; 
-  }
-  .description a:hover {
-    background-color: $light-violet;
-    color: $white;
   }
   .social a svg:hover {
     color: $light-violet;
