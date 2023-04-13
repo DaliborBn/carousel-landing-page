@@ -8440,6 +8440,9 @@ span i {
     border: none;
     box-shadow: 0.5px 10px 10px rgba(0, 0, 0, 0.192);
     transition: all ease 0.3s; }
+    .description a:hover {
+      background-color: #e882e8;
+      color: #fff; }
 
 .social {
   margin-top: 6rem; }
@@ -8457,9 +8460,6 @@ span i {
   .logo a svg:hover {
     transform: rotate(-4deg) scale(1.1);
     color: #e882e8; }
-  .description a:hover {
-    background-color: #e882e8;
-    color: #fff; }
   .social a svg:hover {
     color: #e882e8; } }
 
